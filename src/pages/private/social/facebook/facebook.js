@@ -1,10 +1,10 @@
 import React from 'react'
-
+import "../../../../css/bootstrap.css"
 function Facebook(){
     return(
         <div>
             <h1>Gracious Facebook</h1>
-            <p>
+            <p className="text-justify">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pharetra lacinia purus et sollicitudin. Pellentesque urna nisi, volutpat at mauris quis, lobortis tempus erat. Morbi finibus feugiat metus nec mattis. Donec commodo rutrum malesuada. Pellentesque tempus mi id purus gravida, et convallis mauris sodales. Cras sed nunc feugiat, aliquet eros non, tempus elit. In odio tortor, auctor non lacinia quis, fermentum et purus. Cras tristique lacus sem, in scelerisque quam fringilla id. Nunc bibendum auctor odio sit amet condimentum. Aenean pharetra dui ante, eu condimentum arcu cursus at.
 
 Aenean porta felis ut nisi accumsan sagittis. Nam elementum arcu enim, eu auctor massa venenatis sit amet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec varius, ipsum vel feugiat feugiat, nisi arcu mattis sapien, a sagittis massa neque quis elit. Maecenas non justo aliquet, feugiat enim vitae, lobortis ante. Fusce iaculis ullamcorper justo vitae venenatis. Donec lacinia at tellus eu euismod. Mauris fringilla ligula vel lorem viverra vehicula sit amet eget felis. Etiam faucibus nisi orci. Sed a auctor dolor, imperdiet tincidunt est. Nam rutrum mi sed mi scelerisque ultrices. Sed nulla ante, cursus id consequat eu, ullamcorper in leo.

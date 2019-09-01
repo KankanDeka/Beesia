@@ -50,7 +50,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item active ">
-              <Link to="/createpost/" className="nav-link createPost">
+              <Link to="/createpost/facebook" className="nav-link createPost">
                 <button type="link" className="btn btn-sm btn-outline-success">
                   Create Post
                 </button>
@@ -181,7 +181,7 @@ function Navbar() {
         {/* Navbar Route start here */}
         <div className="float-left dashArea">
           <Route path="/" exact component={Dashboard} />
-          <Route path="/createpost/" component={CreatePost} />
+          <Route path="/createpost/facebook" component={CreatePost} />
           <Route path="/schedule/" component={Schedule} />
           <Route path="/search/" component={Search} />
           <Route path="/notification/" component={Notification} />
